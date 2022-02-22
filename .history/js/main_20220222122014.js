@@ -1,0 +1,1 @@
+let area = document.querySelector('.area1');
