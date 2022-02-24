@@ -15,9 +15,3 @@ first.addEventListener('click', (e) => {
 
 
 console.log(document.body);
-
-console.log(document.querySelector('area1').parentElement);
-
-console.log(document.querySelector('area1'.childNodes));
-
-console.log(document.querySelector('area1').children);
