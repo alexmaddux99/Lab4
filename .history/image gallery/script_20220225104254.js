@@ -11,14 +11,11 @@ nxt.onclick = function(e) {
   index = index + 1;
   slide.src = baseURL + image[index];
   console.log(slide.src);
-  
-  
 
   //write a conditional so that the images wrap back to the beginning image.
   if (index > 3) {
     index = 0;
     slide.src = baseURL + image[index];
-    console.log(index);
   } 
 }
 
@@ -30,12 +27,10 @@ prev.onclick = function(e) {
   index = index - 1;
   slide.src = baseURL + image[index];
   console.log(slide.src);
-  
-  
+  console.log(index);
+
   if (index < 0){
     index = 3;
     slide.src = baseURL + image[index];
-    console.log(index);
-
   }
 }
