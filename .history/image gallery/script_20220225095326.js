@@ -17,7 +17,6 @@ nxt.onclick = function(e) {
     index = 0;
     slide.src = baseURL + image[index];
   } 
-}
 
 
 
@@ -32,4 +31,5 @@ prev.onclick = function(e) {
     index = 3;
     slide.src = baseURL + image[index];
   }
+}
 }
