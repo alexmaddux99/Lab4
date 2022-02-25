@@ -32,4 +32,3 @@ prev.onclick = function(e) {
     slide.src = baseURL + image[index];
   }
 }
-}

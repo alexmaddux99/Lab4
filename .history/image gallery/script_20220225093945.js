@@ -28,7 +28,7 @@ prev.onclick = function(e) {
   console.log(slide.src);
 
   if (index < 0){
-    index = 3;
+    index = 3
     slide.src = baseURL + image[index];
   }
 }
