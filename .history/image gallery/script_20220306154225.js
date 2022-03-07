@@ -39,4 +39,3 @@ prev.onclick = function(e) {
 
   }
 }
-

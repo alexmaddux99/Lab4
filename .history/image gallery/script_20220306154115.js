@@ -24,19 +24,3 @@ nxt.onclick = function(e) {
 
 
 
-//Add a previous button event listener
-prev.onclick = function(e) {
-  e.preventDefault();
-  index = index - 1;
-  slide.src = baseURL + image[index];
-  console.log(slide.src);
-  
-  
-  if (index < 0){
-    index = 3;
-    slide.src = baseURL + image[index];
-    console.log(index);
-
-  }
-}
-
